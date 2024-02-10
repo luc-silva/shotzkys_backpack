@@ -1,0 +1,5 @@
+/aseprite_files
+/.env
+/out
+/dist
+/node_modules
