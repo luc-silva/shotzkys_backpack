@@ -58,7 +58,9 @@ async function createObjectFolderStructure(src) {
         } else if (stat.isFile() && itemPath.match(/.*\.recipe$/i)) {
             await fs.copyFile(itemPath, recipesFolderPath);
         } else {
-            console.log(`File not identified: ${itemPath}`);
+            if (!itemPath.match(/.*config\.patch$/)) {
+                console.log(`File not identified: ${itemPath}`);
+            }
         }
     }
 }

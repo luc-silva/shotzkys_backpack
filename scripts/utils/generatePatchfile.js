@@ -12,7 +12,8 @@ async function readDirectory(path, objects = []) {
         } else if (item.match(/.*.object/)) {
             try {
                 let content = await fs.readFile(item, "utf-8");
-                let object = JSON.parse(content);
+                const jsonWithoutComments = content.replace(/\/\/.*/g, '');
+                let object = JSON.parse(jsonWithoutComments);
                 objects.push(object.objectName);
             } catch (e) {
                 console.error(e);
