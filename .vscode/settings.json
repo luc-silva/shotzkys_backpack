@@ -1,10 +1,10 @@
 {
-    "files.associations": {
-        "*.animation": "json",
-        "*.object": "json",
-        "*.frames": "json",
-        "*.recipe": "json",
-        "*.config": "json",
-        "*.config.patch": "json"
-    }
+  "files.associations": {
+    "*.animation": "jsonc",
+    "*.object": "jsonc",
+    "*.frames": "jsonc",
+    "*.recipe": "jsonc",
+    "*.config": "jsonc",
+    "*.config.patch": "jsonc"
+  }
 }
