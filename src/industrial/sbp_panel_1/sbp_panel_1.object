@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_panel_1",
+    "colonyTags": ["industrial"],
+    "rarity": "rare",
+    "description": "A panel, I shouldn't touch it.",
+    "shortdescription": "Panel",
+    "race": "generic",
+    "category": "decorative",
+    "price": 50,
+    "printable": false,
+
+    "inventoryIcon": "sbp_panel_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_panel_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["background"]
+        }
+    ]
+}

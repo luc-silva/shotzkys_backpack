@@ -1,0 +1,22 @@
+{
+    "objectName": "sbp_bloodflasks",
+    "colonyTags": ["odd", "science"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "Is this human or apex blood?",
+    "shortdescription": "Blood Flasks",
+    "race": "Generic",
+    "printable": false,
+    "inventoryIcon": "sbp_bloodflasks.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_bloodflasks.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

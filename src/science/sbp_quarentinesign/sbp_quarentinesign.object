@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_quarentinesign",
+    "colonyTags": ["science", "odd"],
+    "rarity": "rare",
+    "description": "A Quarentine Sign",
+    "shortdescription": "Quarentine Sign",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_quarentinesign_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_quarentinesign.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["background"]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_utilitybox_grey_1",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_decoration",
+        "shotzkys_backpack",
+        "shotzkys_industrial"
+    ]
+}

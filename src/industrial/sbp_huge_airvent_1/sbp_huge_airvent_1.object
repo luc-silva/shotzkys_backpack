@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_huge_airvent_1",
+    "colonyTags": ["industrial"],
+    "rarity": "rare",
+    "description": "That is huge.",
+    "shortdescription": "Huge air vent",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_huge_airvent_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_huge_airvent_1.png:<color>.<frame>",
+            "imagePosition": [-1, 0],
+            "frames": 3,
+            "animationCycle": 0.4,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"],
+            "collision": "platform"
+        }
+    ],
+
+    "soundEffect": "/sfx/objects/bunkervent.ogg"
+}

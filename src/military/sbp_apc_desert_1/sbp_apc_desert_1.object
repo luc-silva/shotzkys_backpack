@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_apc_desert_1",
+    "colonyTags": [
+        "combat",
+        "military"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "Bro, i wanna drive it right now",
+    "shortdescription": "APC",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_apc_desert_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_apc_desert_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_shelf_blue_3",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_industrial",
+        "shotzkys_backpack"
+    ]
+}

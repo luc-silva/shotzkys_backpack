@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_militarycase_oliviagreen_1",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_military",
+        "shotzkys_backpack",
+        "shotzky_storage"
+    ]
+}

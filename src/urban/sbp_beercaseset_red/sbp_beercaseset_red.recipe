@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_beercaseset_red",
+        "count": 1
+    },
+    "groups": [
+        "shotzkys_backpack",
+        "shotzky_storage",
+        "shotzky_urban"
+    ]
+}

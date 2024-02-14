@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_jar_green",
+    "colonyTags": ["science", "odd"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "A Empty Jar, but I don't know what's this green thing.",
+    "shortdescription": "Empty Jar",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_jar_green_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_jar_green.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

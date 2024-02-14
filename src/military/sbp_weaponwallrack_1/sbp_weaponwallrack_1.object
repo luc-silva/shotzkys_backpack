@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_weaponwallrack_1",
+    "colonyTags": [
+        "combat",
+        "military"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "That's a military truck.",
+    "shortdescription": "Weapon Wall Rack",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_weaponwallrack_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_weaponwallrack_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["background"]
+        }
+    ]
+}

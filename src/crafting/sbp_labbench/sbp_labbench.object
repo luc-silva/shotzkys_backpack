@@ -1,0 +1,44 @@
+{
+    "objectName": "sbp_labbench",
+    "rarity": "legendary",
+    "learnBlueprintsOnPickup": [
+        "sbp_labbench"
+    ],
+    "interactAction": "OpenCraftingInterface",
+    "interactData": {
+        "config": "/interface/windowconfig/crafting.config",
+        "filter": ["shotzky_science"]
+    },
+    "printable": false,
+    "description": "That's a lab workbench.",
+    "shortdescription": "^orange;labbench^white;",
+    "race": "generic",
+    "category": "crafting",
+    "price": 200,
+    "lightColor": [155, 186, 61],
+    "lightPosition": [28, 13],
+    "flickerPeriod": 0.3,
+    "flickerMinIntensity": 0.4,
+    "flickerMaxIntensity": 0.52,
+    "flickerPeriodVariance": 0.1,
+    "flickerIntensityVariance": 0,
+    "inventoryIcon": "sbp_labbench_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_labbench.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_labbench_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [0, 0],
+            "frames": 4,
+            "animationCycle": 1,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_shelfwith_corpse_2",
+    "colonyTags": ["odd", "science"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "I fell bad for who is there",
+    "shortdescription": "Shelf with Corpse",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_shelfwith_corpse_2_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_shelfwith_corpse_2.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

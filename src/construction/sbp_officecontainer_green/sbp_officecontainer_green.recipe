@@ -1,0 +1,16 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_officecontainer_green",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_construction",
+        "shotzkys_backpack"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_ammoboxshelf_oliviagreen_2",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_military",
+        "shotzky_storage",
+        "shotzkys_backpack"
+    ]
+}

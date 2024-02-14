@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_walldoor_red_1",
+    "colonyTags": ["urban"],
+    "rarity": "rare",
+    "description": "Where's the keys?",
+    "shortdescription": "Door (Red)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_walldoor_red_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_walldoor_red_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

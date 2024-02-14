@@ -1,0 +1,29 @@
+{
+    "objectName": "sbp_militarytruck_oliviagreen_4",
+    "colonyTags": [
+        "combat",
+        "military",
+        "army"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "That's a military truck.",
+    "shortdescription": "Military Truck (Olivia Green)",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_militarytruck_oliviagreen_4_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_militarytruck_oliviagreen_4.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

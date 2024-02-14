@@ -1,0 +1,16 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_quarentinefence_yellow_4",
+        "count": 1
+    },
+    "groups": [
+        "shotzkys_backpack",
+        "shotzky_science"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_quarentinefence_yellow_4",
+    "colonyTags": ["odd", "science"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "I shouldn't be near this area",
+    "shortdescription": "Quarentine fence (Yellow)",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_quarentinefence_yellow_4_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_quarentinefence_yellow_4.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

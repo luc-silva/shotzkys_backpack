@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_toolbox_red_2",
+    "colonyTags": ["industrial"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "A Red toolbox, with tools.",
+    "shortdescription": "Toolbox (Red)",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_toolbox_red_2.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_toolbox_red_2.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

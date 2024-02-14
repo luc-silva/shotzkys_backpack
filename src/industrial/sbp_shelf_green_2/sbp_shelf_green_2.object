@@ -1,0 +1,22 @@
+{
+    "objectName": "sbp_shelf_green_2",
+    "colonyTags": ["industrial"],
+    "rarity": "rare",
+    "description": "People use this shelf in warehouses.",
+    "shortdescription": "Shelf (Green)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_shelf_green_2_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_shelf_green_2.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

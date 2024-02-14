@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_ricebag",
+    "colonyTags": [
+        "urban",
+        "industrial"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "It's a rice bag",
+    "shortdescription": "Ricebag",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_ricebag_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_ricebag.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

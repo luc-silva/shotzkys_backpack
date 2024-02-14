@@ -1,0 +1,39 @@
+{
+    "objectName": "sbp_quarentinetrashbag_2",
+    "colonyTags": [
+        "odd",
+        "science",
+        "storage"
+    ],
+    "rarity": "rare",
+    "objectType": "container",
+    "tooltipKind": "container",
+
+    "category": "storage",
+    "price": 200,
+    "description": "We should burn it",
+    "shortdescription": "Biohazard Trash Bag",
+    "race": "generic",
+    "health": 1.5,
+
+    "inventoryIcon": "sbp_quarentinetrashbag_2_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_quarentinetrashbag_2.png:default",
+            "imagePosition": [-8, 0],
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+
+    "openSounds": [
+        "/sfx/objects/bed_enter.ogg"
+    ],
+    "closeSounds": [
+        "/sfx/objects/bed_leave.ogg"
+    ],
+    "slotCount": 16,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

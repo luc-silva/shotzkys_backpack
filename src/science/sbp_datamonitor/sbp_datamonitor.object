@@ -1,0 +1,58 @@
+{
+    "objectName": "sbp_datamonitor",
+    "colonyTags": [
+        "eletronic",
+        "science"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "A data monitor, I doubt that all this info is useful.",
+    "shortdescription": "Data Monitor",
+    "race": "generic",
+    "printable": false,
+
+    "lightColor": [63, 140, 253],
+    "lightPosition": [0, 1],
+    "flickerPeriod": 0.4,
+    "flickerMinIntensity": 0.975,
+    "flickerMaxIntensity": 1,
+    "flickerPeriodVariance": 0,
+    "flickerIntensityVariance": 0,
+
+    "inventoryIcon": "sbp_datamonitor_icon.png",
+    "orientations": [
+        {
+            "image": "sbp_datamonitor.png:<color>.<frame>",
+            "flipImages": true,
+            "imagePosition": [-23, -20],
+            "spaceScan": 0.1,
+            "anchors": ["background"],
+            "direction": "left"
+        },
+        {
+            "image": "sbp_datamonitor_lit.png:<color>.<frame>",
+            "imagePosition": [-23, -20],
+            "spaceScan": 0.1,
+            "anchors": ["background"],
+            "direction": "right"
+        }
+    ],
+
+    "soundEffect": "/sfx/objects/outpostmonitor_static.ogg",
+
+    "animation": "sbp_datamonitor.animation",
+    "animationParts": {
+        "bg": "sbp_datamonitor.png",
+        "fg": "sbp_datamonitor_lit.png"
+    },
+
+    "animationPosition": [-23, -20],
+
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+
+    "inputNodes": [[0, 1]]
+}

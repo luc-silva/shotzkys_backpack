@@ -1,0 +1,23 @@
+{
+    "objectName": "sbp_alchemyflasks_yellow",
+    "colonyTags": ["science"],
+    "rarity": "rare",
+    "price": 200,
+    "printable": false,
+    "description": "Sweat smell, don't try to taste it by the way.",
+    "shortdescription": "Alchemy Flasks",
+    "race": "generic",
+    "category": "decoration",
+    "inventoryIcon": "sbp_alchemyflasks_yellow_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_alchemyflasks_yellow.png:<color>.<frame>",
+            "imagePosition": [-1, 0],
+            "frames": 8,
+            "animationCycle": 1.8,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

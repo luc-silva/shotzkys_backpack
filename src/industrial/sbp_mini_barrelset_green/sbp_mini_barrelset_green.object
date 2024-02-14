@@ -1,0 +1,22 @@
+{
+    "objectName": "sbp_mini_barrelset_green",
+    "colonyTags": ["industrial"],
+    "rarity": "rare",
+    "description": "A few barrels.",
+    "shortdescription": "Barrel Set (Green)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_mini_barrelset_green_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_mini_barrelset_green.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1,
+            "spaceScan": 0.5,
+            "anchors": ["bottom"]
+        }
+    ]
+}

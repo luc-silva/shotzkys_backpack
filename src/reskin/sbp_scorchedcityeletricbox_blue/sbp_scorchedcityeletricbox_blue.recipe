@@ -1,0 +1,16 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_scorchedcityeletricbox_blue",
+        "count": 1
+    },
+    "groups": [
+        "shotzkys_backpack",
+        "shotzky_misc"
+    ]
+}

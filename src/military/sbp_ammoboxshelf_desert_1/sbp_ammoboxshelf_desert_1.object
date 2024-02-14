@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_ammoboxshelf_desert_1",
+    "colonyTags": [
+        "combat",
+        "military"
+    ],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "We should keep it safe from rebels.",
+    "shortdescription": "Ammo Box Shelf.",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_ammoboxshelf_desert_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_ammoboxshelf_desert_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

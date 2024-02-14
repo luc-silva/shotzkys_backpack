@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_militaryforklift_oliviagreen_2",
+    "colonyTags": [
+        "combat",
+        "military"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "A Military Forklift, not sure if it's explosion-proof.",
+    "shortdescription": "Military Forklift",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_militaryforklift_oliviagreen_2_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_militaryforklift_oliviagreen_2.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

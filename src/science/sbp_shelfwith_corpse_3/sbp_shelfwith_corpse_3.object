@@ -1,0 +1,24 @@
+{
+    "objectName": "sbp_shelfwith_corpse_3",
+    "colonyTags": ["odd", "science"],
+    "rarity": "rare",
+    "price": 200,
+    "printable": false,
+    "description": "Uhg, it stinks.",
+    "shortdescription": "Shelf with Corpses",
+    "race": "generic",
+    "category": "decoration",
+
+    "inventoryIcon": "sbp_shelfwith_corpse_3_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_shelfwith_corpse_3.png:<color>.<frame>",
+            "imagePosition": [-1, 0],
+            "frames": 10,
+            "animationCycle": 2,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

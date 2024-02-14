@@ -1,0 +1,76 @@
+{
+    "objectName": "sbp_retrocomputer_2",
+    "colonyTags": [
+        "retro",
+        "electronic"
+    ],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 95,
+    "lightColor": [81, 189, 59],
+    "lightPosition": [0, -1],
+    "printable": false,
+
+    "description": "Humans used to program a lot here.",
+    "shortdescription": "Old Retro Computer (Grey)",
+    "race": "generic",
+
+    "inventoryIcon": "sbp_retrocomputer_2_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrocomputer_2.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrocomputer_2_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+
+            "direction": "left",
+            "flipImages": true,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrocomputer_2.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrocomputer_2_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+
+            "direction": "right",
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+
+    "soundEffect": "/sfx/objects/tv_static.ogg",
+    "animation": "sbp_retrocomputer_2.animation",
+    "animationParts": {
+        "bg": "sbp_retrocomputer_2.png",
+        "fg": "sbp_retrocomputer_2_lit.png"
+    },
+
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+
+    "inputNodes": [[0, 1]]
+}

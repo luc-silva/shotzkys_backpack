@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_toolbox_blue",
+    "colonyTags": ["industrial"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "A Blue toolbox, with tools.",
+    "shortdescription": "Toolbox (Blue)",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_toolbox_blue.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_toolbox_blue.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

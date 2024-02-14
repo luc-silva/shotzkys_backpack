@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_billboardback_2",
+    "colonyTags": ["urban"],
+    "rarity": "rare",
+    "description": "Oh, propaganda!",
+    "shortdescription": "Billboard",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_billboardback_2_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_billboardback_2.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

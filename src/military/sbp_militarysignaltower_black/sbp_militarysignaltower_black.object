@@ -1,0 +1,33 @@
+{
+    "objectName": "sbp_militarysignaltower_black",
+    "colonyTags": ["urban"],
+    "rarity": "rare",
+    "lightColor": [125, 26, 13],
+    "description": "Oh no, microwaves.",
+    "shortdescription": "Signal Tower",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "inventoryIcon": "sbp_militarysignaltower_black_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_militarysignaltower_black.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_militarysignaltower_black_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "frames": 1,
+            "animationCycle": 1,
+            "lightPosition": [4, 18],
+
+            "direction": "left",
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "objectName": "sbp_quarentinesignled",
+    "colonyTags": [
+        "odd",
+        "science",
+        "eletronic"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "With this sign we can't miss the way.",
+    "shortdescription": "Quarentine Led Sign",
+    "race": "generic",
+    "printable": false,
+
+    "lightColor": [249, 138, 19],
+    "lightPosition": [0, 1],
+
+    "inventoryIcon": "sbp_quarentinesignled_icon.png",
+    "orientations": [
+        {
+            "image": "sbp_quarentinesignled_left_preview.png:<color>.<frame>",
+            "imagePosition": [0, 0],
+            "direction": "left",
+            "animationParts": {
+                "bg": "sbp_quarentinesignled_left.png",
+                "fg": "sbp_quarentinesignled_left_lit.png"
+            },
+            "animationPosition": [0, 0],
+            "lightPosition": [0, 1],
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "image": "sbp_quarentinesignled_right.png:<color>.<frame>",
+            "imagePosition": [0, 0],
+            "direction": "right",
+            "animationParts": {
+                "bg": "sbp_quarentinesignled_right.png",
+                "fg": "sbp_quarentinesignled_right_lit.png"
+            },
+            "animationPosition": [0, 0],
+            "lightPosition": [0, 1],
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+
+    "animation": "sbp_quarentinesignled.animation",
+    "animationParts": {
+        "bg": "sbp_quarentinesignled_left.png",
+        "fg": "sbp_quarentinesignled_left_lit.png"
+    },
+
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+
+    "inputNodes": [[0, 1]]
+}

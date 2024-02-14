@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_beercaseset_green",
+    "colonyTags": [
+        "industrial",
+        "urban"
+    ],
+    "rarity": "rare",
+    "description": "There's just a few bottles.",
+    "shortdescription": "Green Beer Case Set",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_beercaseset_green_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_beercaseset_green.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

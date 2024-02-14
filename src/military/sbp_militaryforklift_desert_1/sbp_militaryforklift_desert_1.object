@@ -1,0 +1,28 @@
+{
+    "objectName": "sbp_militaryforklift_desert_1",
+    "colonyTags": [
+        "combat",
+        "military"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "a Military Forklift, not sure if it's explosion-proof.",
+    "shortdescription": "Military Forklift",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_militaryforklift_desert_1_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_militaryforklift_desert_1.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

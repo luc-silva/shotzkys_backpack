@@ -1,0 +1,56 @@
+{
+    "objectName": "sbp_retrocomputer_3",
+    "colonyTags": [
+        "retro",
+        "electronic",
+        "office"
+    ],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "lightColor": [255, 58, 58],
+    "lightPosition": [0, 1],
+    "flickerPeriod": 0.4,
+    "flickerMinIntensity": 0.975,
+    "flickerMaxIntensity": 1,
+    "flickerPeriodVariance": 0,
+    "flickerIntensityVariance": 0,
+    "description": "That's a old fashioned server.",
+    "shortdescription": "Wood Sided Server",
+    "race": "generic",
+    "inventoryIcon": "sbp_retrocomputer_3_icon.png",
+    "orientations": [
+        {
+            "image": "sbp_retrocomputer_3.png:<color>.<frame>",
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+            "direction": "left",
+            "flipImages": true,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "image": "sbp_retrocomputer_3.png:<color>.<frame>",
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+            "direction": "right",
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+    "animation": "sbp_retrocomputer_3.animation",
+    "animationParts": {
+        "bg": "sbp_retrocomputer_3.png",
+        "fg": "sbp_retrocomputer_3_lit.png"
+    },
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+    "inputNodes": [[0, 1]]
+}

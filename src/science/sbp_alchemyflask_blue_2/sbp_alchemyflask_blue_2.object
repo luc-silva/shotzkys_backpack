@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_alchemyflask_blue_2",
+    "colonyTags": ["science"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "What's inside it?",
+    "shortdescription": "Flask (Blue)",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_alchemyflask_blue_2.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_alchemyflask_blue_2.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

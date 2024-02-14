@@ -1,0 +1,64 @@
+{
+    "objectName": "sbp_retrodesk",
+    "colonyTags": [
+        "commerce",
+        "crafting"
+    ],
+    "printable": false,
+    "rarity": "Legendary",
+    "interactAction": "OpenCraftingInterface",
+    "interactData": {
+        "config": "/interface/windowconfig/crafting.config",
+        "filter": ["shotzky_retro"]
+    },
+
+    "category": "crafting",
+    "price": 200,
+    "lightColor": [164, 110, 6],
+    "lightPosition": [12, 8],
+
+    "description": "Even the Cyberstore.net is old!",
+    "shortdescription": "^orange;Retro Desk^white;",
+    "race": "generic",
+
+    "inventoryIcon": "sbp_retrodesk_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrodesk.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrodesk_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "frames": 2,
+            "animationCycle": 2,
+            "lightPosition": [1, 1],
+            "direction": "left",
+            "flipImages": true,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrodesk.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrodesk_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "frames": 2,
+            "animationCycle": 2,
+            "lightPosition": [1, 1],
+            "direction": "right",
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

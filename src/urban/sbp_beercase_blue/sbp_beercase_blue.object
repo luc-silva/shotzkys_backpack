@@ -1,0 +1,40 @@
+{
+    "objectName": "sbp_beercase_blue",
+    "colonyTags": [
+        "storage",
+        "industrial",
+        "urban"
+    ],
+    "rarity": "rare",
+    "objectType": "container",
+    "tooltipKind": "container",
+
+    "description": "Let's get drunk!",
+    "shortdescription": "Plastic Beer Case (Blue)",
+    "race": "generic",
+    "category": "storage",
+    "price": 200,
+    "health": 1.5,
+    "printable": false,
+
+    "inventoryIcon": "sbp_beercase_blue_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_beercase_blue.png:<color>",
+            "imagePosition": [-8, 0],
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+
+    "openSounds": [
+        "/sfx/objects/bed_enter.ogg"
+    ],
+    "closeSounds": [
+        "/sfx/objects/bed_leave.ogg"
+    ],
+    "slotCount": 9,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

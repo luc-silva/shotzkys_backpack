@@ -1,0 +1,38 @@
+{
+    "objectName": "sbp_billboardfront_6",
+    "colonyTags": ["urban"],
+    "rarity": "rare",
+    "description": "Oh, propaganda!",
+    "shortdescription": "Billboard",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_billboardfront_6_icon.png",
+    "orientations": [
+        {
+            "image": "sbp_billboardfront_6_left.png:<color>",
+            "imagePosition": [0, 0],
+            "direction": "left",
+            "lightPosition": [8, 10],
+            "beamAngle": 270,
+            "frames": 1,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "image": "sbp_billboardfront_6_right.png:<color>",
+            "imagePosition": [0, 0],
+            "direction": "right",
+
+            "lightPosition": [9, 10],
+            "beamAngle": 270,
+            "frames": 1,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

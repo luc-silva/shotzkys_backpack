@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_waterbottleset",
+    "colonyTags": [
+        "industrial",
+        "urban"
+    ],
+    "rarity": "rare",
+    "description": "Impossible to don't be hidrated.",
+    "shortdescription": "Water Bottle Set",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_waterbottleset_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_waterbottleset.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

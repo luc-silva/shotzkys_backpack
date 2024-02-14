@@ -1,0 +1,32 @@
+{
+    "objectName": "sbp_signaltower_2",
+    "colonyTags": ["urban"],
+    "rarity": "rare",
+    "lightColor": [125, 26, 13],
+    "description": "Oh no, microwaves.",
+    "shortdescription": "Signal Tower",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "inventoryIcon": "sbp_signaltower_2_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_signaltower_2.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_signaltower_2_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "frames": 1,
+            "animationCycle": 1,
+            "lightPosition": [4, 41],
+            "direction": "left",
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

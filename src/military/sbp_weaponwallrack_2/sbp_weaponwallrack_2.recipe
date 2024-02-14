@@ -1,0 +1,16 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 200
+        }
+    ],
+    "output": {
+        "item": "sbp_weaponwallrack_2",
+        "count": 1
+    },
+    "groups": [
+        "shotzky_military",
+        "shotzkys_backpack"
+    ]
+}

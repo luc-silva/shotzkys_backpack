@@ -1,0 +1,50 @@
+{
+    "objectName": "sbp_containertank_red",
+    "colonyTags": [
+        "industrial",
+        "urban"
+    ],
+    "rarity": "rare",
+    "description": "A Tank Container, I Should store fuel instead of water.",
+    "shortdescription": "Tank Container (Red)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_containertank_red_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_containertank_red.png:<color>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_containertank_red_lit.png:<color>"
+                }
+            ],
+            "flipImages": true,
+            "direction": "left",
+            "imagePosition": [-16, -0],
+            "spaceScan": 0.1,
+            "anchors": ["bottom"],
+            "collision": "platform"
+        },
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_containertank_red.png:<color>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_containertank_red_lit.png:<color>"
+                }
+            ],
+            "direction": "right",
+            "imagePosition": [-16, -0],
+            "spaceScan": 0.1,
+            "anchors": ["bottom"],
+            "collision": "platform"
+        }
+    ]
+}

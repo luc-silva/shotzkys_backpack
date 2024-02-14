@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_forklift_orange",
+    "colonyTags": [
+        "urban",
+        "industrial"
+    ],
+    "rarity": "rare",
+    "description": "I drive.",
+    "shortdescription": "Forklift (Orange)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_forklift_orange.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_forklift_orange.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

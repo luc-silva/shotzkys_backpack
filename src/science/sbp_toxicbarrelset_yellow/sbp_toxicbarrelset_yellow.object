@@ -1,0 +1,30 @@
+{
+    "objectName": "sbp_toxicbarrelset_yellow",
+    "colonyTags": [
+        "human",
+        "science",
+        "odd"
+    ],
+    "rarity": "rare",
+    "description": "Do not forget to check your hazmat suit before opening it.",
+    "shortdescription": "Toxic Barrel Set",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+
+    "inventoryIcon": "sbp_toxicbarrelset_yellow_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_toxicbarrelset_yellow.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"],
+            "collision": "platform"
+        }
+    ]
+}

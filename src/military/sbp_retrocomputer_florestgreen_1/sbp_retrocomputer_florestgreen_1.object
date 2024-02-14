@@ -1,0 +1,76 @@
+{
+    "objectName": "sbp_retrocomputer_florestgreen_1",
+    "colonyTags": [
+        "retro",
+        "electronic"
+    ],
+    "rarity": "rare",
+    "category": "decorative",
+    "price": 200,
+    "lightColor": [81, 189, 59],
+    "lightPosition": [0, -1],
+    "printable": false,
+
+    "description": "Humans used to program a lot here.",
+    "shortdescription": "Old Retro Computer (Silver)",
+    "race": "generic",
+
+    "inventoryIcon": "sbp_retrocomputer_florestgreen_1_icon.png",
+    "orientations": [
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrocomputer_florestgreen_1.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrocomputer_florestgreen_1_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+
+            "direction": "left",
+            "flipImages": true,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "imageLayers": [
+                {
+                    "image": "sbp_retrocomputer_florestgreen_1.png:<color>.<frame>",
+                    "fullbright": true
+                },
+                {
+                    "image": "sbp_retrocomputer_florestgreen_1_lit.png:<color>.<frame>"
+                }
+            ],
+            "imagePosition": [-8, 0],
+            "animationPosition": [
+                -8, 0
+            ],
+
+            "direction": "right",
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ],
+
+    "soundEffect": "/sfx/objects/tv_static.ogg",
+    "animation": "sbp_retrocomputer_florestgreen_1.animation",
+    "animationParts": {
+        "bg": "sbp_retrocomputer_florestgreen_1.png",
+        "fg": "sbp_retrocomputer_florestgreen_1_lit.png"
+    },
+
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+
+    "inputNodes": [[0, 1]]
+}

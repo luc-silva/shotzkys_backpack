@@ -1,0 +1,43 @@
+{
+    "objectName": "sbp_toolstable",
+    "rarity": "rare",
+    "learnBlueprintsOnPickup": [
+        "sbp_toolstable"
+    ],
+    "interactAction": "OpenCraftingInterface",
+    "interactData": {
+        "config": "/interface/windowconfig/crafting.config",
+        "filter": [
+            "shotzky_construction"
+        ]
+    },
+    "printable": false,
+    "description": "Someone forgot a hammer here, isn't dangerous?.",
+    "shortdescription": "Tools Table",
+    "race": "generic",
+    "category": "crafting",
+    "price": 200,
+
+    "inventoryIcon": "sbp_toolstable_icon.png",
+    "orientations": [
+        {
+            "image": "sbp_toolstable.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "direction": "left",
+            "flipImages": false,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        },
+        {
+            "image": "sbp_toolstable.png:<color>",
+            "imagePosition": [-16, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "direction": "right",
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

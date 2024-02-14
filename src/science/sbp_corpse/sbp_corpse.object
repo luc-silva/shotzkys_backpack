@@ -1,0 +1,25 @@
+{
+    "objectName": "sbp_corpse",
+    "colonyTags": ["odd", "science"],
+    "rarity": "Rare",
+    "category": "decorative",
+    "price": 200,
+    "description": "I fell bad for who is there",
+    "shortdescription": "Corpse",
+    "race": "generic",
+    "printable": false,
+
+    "inventoryIcon": "sbp_corpse_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_corpse.png:<color>",
+
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 0.5,
+
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

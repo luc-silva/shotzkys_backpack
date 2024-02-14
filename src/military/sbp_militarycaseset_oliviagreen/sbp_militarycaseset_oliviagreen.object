@@ -1,0 +1,22 @@
+{
+    "objectName": "sbp_militarycaseset_oliviagreen",
+    "colonyTags": ["military"],
+    "rarity": "rare",
+    "description": "",
+    "shortdescription": "Military case set",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_militarycaseset_oliviagreen_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_militarycaseset_oliviagreen.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"]
+        }
+    ]
+}

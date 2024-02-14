@@ -1,0 +1,26 @@
+{
+    "objectName": "sbp_barrelset_oliviagreen",
+    "colonyTags": [
+        "military",
+        "combat"
+    ],
+    "rarity": "rare",
+    "description": "Does humans still using oil? What a shame.",
+    "shortdescription": "Barrel set (Olivia Green)",
+    "race": "generic",
+    "category": "decorative",
+    "price": 200,
+    "printable": false,
+    "inventoryIcon": "sbp_barrelset_oliviagreen_icon.png",
+    "orientations": [
+        {
+            "dualImage": "sbp_barrelset_oliviagreen.png:<color>",
+            "imagePosition": [0, 0],
+            "frames": 1,
+            "animationCycle": 1,
+            "spaceScan": 0.1,
+            "anchors": ["bottom"],
+            "collision": "platform"
+        }
+    ]
+}
