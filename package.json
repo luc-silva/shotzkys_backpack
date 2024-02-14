@@ -1,16 +1,17 @@
 {
-    "name": "shotzkys_bp",
-    "version": "0.0.0",
-    "description": "Starbound mod",
-    "main": "none",
-    "private": true,
-    "scripts": {
-        "build": "node ./scripts/createOutDir",
-        "lint": "prettier --write /src"
-    },
-    "author": "Lucas Santos",
-    "license": "CC BY-NC",
-    "dependencies": {
-        "prettier": "^3.2.5"
-    }
+  "name": "shotzkys_bp",
+  "version": "0.1.0",
+  "description": "Starbound mod",
+  "main": "none",
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/createOutDir",
+    "lint": "prettier --write \"./src/**/*.object\" \"./src/**/*.animation\" \"./src/**/*.frames\" \"./src/**/*.recipe\" --parser json",
+    "docs": ""
+  },
+  "author": "Lucas Santos",
+  "license": "CC BY-NC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
